@@ -1,0 +1,12 @@
+{
+  "name": "amqp-hello-world",
+  "version": "1.0.0",
+  "description": "Hello World con estilo arquitectural AMQP usando RabbitMQ",
+  "scripts": {
+    "productor": "node src/productor.js",
+    "consumidor": "node src/consumidor.js"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.4"
+  }
+}
